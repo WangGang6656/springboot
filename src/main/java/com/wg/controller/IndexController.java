@@ -1,14 +1,12 @@
-package org.example.controller;
+package com.wg.controller;
 
+import com.wg.common.Result;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;
-import org.example.common.Result;
-import org.example.utils.TimeUtils;
+import com.wg.utils.TimeUtils;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
-
-import java.util.Date;
 
 
 @Api(tags = "index接口")

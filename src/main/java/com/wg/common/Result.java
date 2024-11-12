@@ -1,4 +1,4 @@
-package org.example.common;
+package com.wg.common;
 
 import java.util.HashMap;
 import java.util.Map;

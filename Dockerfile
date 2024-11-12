@@ -1,4 +1,4 @@
-FROM  registry.moan.com:5000/moan/jdk17-maven3.6-nodejs18-base:latest
+FROM  registry.moan.com:5000/moan/jdk1.8-maven3.6-nodejs18:latest
 
 WORKDIR /app
 

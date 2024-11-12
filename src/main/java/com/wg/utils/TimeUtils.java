@@ -1,4 +1,4 @@
-package org.example.utils;
+package com.wg.utils;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;

@@ -1,4 +1,4 @@
-package org.example.common;
+package com.wg.common;
 
 public enum ApiResultEnum {
     SUCCESS("200","ok"),

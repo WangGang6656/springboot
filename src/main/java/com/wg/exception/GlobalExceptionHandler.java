@@ -1,10 +1,8 @@
-package org.example.exception;
+package com.wg.exception;
 
+import com.wg.common.Result;
 import lombok.extern.slf4j.Slf4j;
-import org.example.common.ApiResultEnum;
-import org.example.common.Result;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import com.wg.common.ApiResultEnum;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 
