@@ -35,7 +35,7 @@ public class SwaggerConfig implements WebMvcConfigurer {
 //        aParameters.add(aParameterBuilder.build());
         return new Docket(DocumentationType.SWAGGER_2).apiInfo(productApiInfo())
                 .groupName("v1").select()
-                .apis(RequestHandlerSelectors.basePackage("org.example")).build().globalOperationParameters(null);
+                .apis(RequestHandlerSelectors.basePackage("com.wg")).build().globalOperationParameters(null);
     }
 
     private ApiInfo productApiInfo() {

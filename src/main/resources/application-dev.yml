@@ -1,2 +1,16 @@
 server:
   port: 8080
+
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://172.20.9.40:3308/demo?characterEncoding=UTF-8&useUnicode=true&serverTimezone=Asia/Shanghai&useSSL=false
+    username: root
+    password: moan123456
+    type: com.alibaba.druid.pool.DruidDataSource
+
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true #开启驼峰命名和下划线命名的自动转换,实体属性与表名不一致（下划线和驼峰）
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
